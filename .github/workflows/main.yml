@@ -25,7 +25,7 @@ jobs:
         env:
           GITHUB_EMAIL: "@qq.com"
           GITHUB_USERNAME: ""
-          PUBLISH_REPO: https://${{ secrets.PAT }}@github.com/liuzhiyan5/Mou_Blog.git main:gh-pages
+          PUBLISH_REPO: https://${{ secrets.PAT }}@github.com/liuzhiyan5/Mou_Blog.git
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: ./dist
           DEPLOY_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
