@@ -4,7 +4,7 @@ module.exports = {
   title: "白月初的博客",
   description: "正因你我生于繁华,弥足之花方显珍贵",
   dest: "dist", // 打包路径
-  base: "/blog/",
+  base: "/mou_blog/",
   head: [
     [
       "link",
