@@ -1,0 +1,48 @@
+diff --git a/node_modules/vuepress-theme-reco/components/Footer.vue b/node_modules/vuepress-theme-reco/components/Footer.vue
+index a9f0d44..3346c25 100644
+--- a/node_modules/vuepress-theme-reco/components/Footer.vue
++++ b/node_modules/vuepress-theme-reco/components/Footer.vue
+@@ -21,6 +21,10 @@
+       <reco-icon icon="reco-eye" />
+       <AccessNumber idVal="/" />
+     </span>
++    <!-- 尾部修改 -->
++    <span>
++      <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.zh">本博客采用“保持署名—非商用”创意共享4.0许可证</a>
++    </span>
+     <p class="cyber-security" v-if="$themeConfig.cyberSecurityRecord">
+       <img src="https://img.alicdn.com/tfs/TB1..50QpXXXXX7XpXXXXXXXXXX-40-40.png" alt="">
+       <a :href="$themeConfig.cyberSecurityLink || '#'">{{ $themeConfig.cyberSecurityRecord }}</a>
+diff --git a/node_modules/vuepress-theme-reco/components/HomeBlog.vue b/node_modules/vuepress-theme-reco/components/HomeBlog.vue
+index 3ac9656..cb858b5 100644
+--- a/node_modules/vuepress-theme-reco/components/HomeBlog.vue
++++ b/node_modules/vuepress-theme-reco/components/HomeBlog.vue
+@@ -110,10 +110,11 @@ export default {
+       const initBgImageStyle = {
+         textAlign: 'center',
+         overflow: 'hidden',
++        // 背景图修改
+         background: `
+           url(${this.$frontmatter.bgImage
+     ? this.$withBase(this.$frontmatter.bgImage)
+-    : require('../images/bg.svg')}) center/cover no-repeat
++    : require('/img/modao.jpg')}) center/cover no-repeat
+         `
+       }
+       const {
+diff --git a/node_modules/vuepress-theme-reco/images/modao.jpg b/node_modules/vuepress-theme-reco/images/modao.jpg
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/vuepress-theme-reco/styles/code.styl b/node_modules/vuepress-theme-reco/styles/code.styl
+index b8551c3..dea4f23 100644
+--- a/node_modules/vuepress-theme-reco/styles/code.styl
++++ b/node_modules/vuepress-theme-reco/styles/code.styl
+@@ -1,6 +1,7 @@
+ .content__default
+  code
+-   color lighten($textColor, 20%)
++   //color lighten($textColor, 20%)
++   color red
+    padding 0.25rem 0.5rem
+    margin 0
+    font-size 0.85em

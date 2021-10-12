@@ -1,0 +1,31 @@
+name: GitHub Actions deploy
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # 切换分支
+      - name: Checkout
+        uses: actions/checkout@v2.3.1
+        with:
+          persist-credentials: false
+      # npm install
+      - name: npm install and build 🔧
+        run: |
+          npm install
+          npm run build
+        env:
+          CI: true
+      # Deploy
+      - name: Git Push Action
+        uses: x-actions/git-push@v1
+        env:
+          GITHUB_EMAIL: "@qq.com"
+          GITHUB_USERNAME: ""
+          PUBLISH_REPO: https://${{ secrets.PAT }}@github.com/Silence-dream/blog.git
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: ./dist
+          DEPLOY_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <script>
+      // 我们先来创建一个构造函数
+      let Person = function() {};
+      Person.prototype.name = "梨花";
+      let person1 = new Person();
+      let person2 = new Person();
+      console.log(person1.name, person2.name); // 梨花 梨花
+      // prototype是函数才会有的属性
+      console.dir(Person);
+
+      // __proto__
+      // 这是每一个JavaScript对象(除了 null )都具有的一个属性，叫__proto__，这个属性会指向该对象的原型。
+      console.log(person1); // 打开浏览器观察会看见 person1 内部有一个 __proto__ 的属性
+      // 比较
+      console.log(person1.__proto__ == Person.prototype); // true
+
+      // 思考,既然实例对象和构造函数都可以指向原型，那么原型是否有属性指向构造函数或者实例呢？
+
+      // constructor
+      console.log(Person == Person.prototype.constructor); // true
+
+      // 获取对象原型的方法
+      console.log(Object.getPrototypeOf(person1) == Person.prototype); //true
+
+      // 实例与原型
+      // 当读取实例的属性时，如果找不到，就会查找与对象关联的原型中的属性，如果还查不到，就去找原型的原型，一直找到最顶层为止。
+      person1.name = "person1-name";
+      console.log(person1.name);
+      delete person1.name;
+      console.log(person1.name);
+
+      // 原型的原型
+      var obj = new Object();
+      obj.name = "Kevin";
+      console.log(obj.name); // Kevin
+
+      console.dir(Object);
+    </script>
+  </body>
+</html>

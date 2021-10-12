@@ -1,0 +1,27 @@
+{
+  "name": "testdemo",
+  "version": "1.0.0",
+  "author": "reco_luan",
+  "scripts": {
+    "dev": "vuepress dev .",
+    "build": "vuepress build .",
+    "postinstall": "patch-package"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-medium-zoom": "^1.8.2",
+    "@vuepress/plugin-pwa": "^1.8.2",
+    "patch-package": "^6.4.7",
+    "postinstall-postinstall": "^2.1.0",
+    "vuepress": "1.7.1",
+    "vuepress-theme-reco": "1.6.1"
+  },
+  "description": "testdemo2",
+  "dependencies": {
+    "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-plugin-nuggets-style-copy": "^1.0.3",
+    "yorkie": "^2.0.0"
+  },
+  "gitHooks": {
+    "pre-push": ""
+  }
+}
