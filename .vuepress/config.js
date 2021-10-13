@@ -1,8 +1,8 @@
 const sidebar = require("./sidebar.js");
 module.exports = {
   // 网站标题
-  title: "白月初的博客",
-  description: "正因你我生于繁华,弥足之花方显珍贵",
+  title: "刘謀的博客",
+  description: "莫愁前路无知己,天下谁人不识君",
   dest: "dist", // 打包路径
   base: "/Mou_Blog/",
   head: [
@@ -21,6 +21,7 @@ module.exports = {
       },
     ],
   ],
+  // 插件
   plugins: [
     ["vuepress-plugin-code-copy", true],
     ["@vuepress/medium-zoom"],
@@ -48,7 +49,8 @@ module.exports = {
   theme: "reco",
   themeConfig: {
     // 黑暗模式
-    mode: "dark",
+    mode: "auto",
+    // 顶部导航链接
     nav: [
       {
         text: "主页",
@@ -61,20 +63,12 @@ module.exports = {
         icon: "reco-date",
       },
       {
-        text: "文档",
+        text: "笔记",
         icon: "reco-message",
         items: [
           {
-            text: "vuepress-reco",
-            link: "/docs/theme-reco/",
-          },
-          {
-            text: "前端",
-            link: "/docs/Front-end/",
-          },
-          {
-            text: "笔记杂项",
-            link: "/docs/笔记杂项/",
+            text: "前端三基础",
+            link: "/docs/前端三基础/",
           },
         ],
       },
@@ -84,7 +78,7 @@ module.exports = {
         items: [
           {
             text: "GitHub",
-            link: "https://github.com/Silence-dream",
+            link: "https://github.com/liuzhiyan5",
             icon: "reco-github",
           },
         ],
@@ -96,13 +90,14 @@ module.exports = {
     blogConfig: {
       category: {
         location: 2,
-        text: "分类",
+        text: "文档",
       },
       tag: {
         location: 3,
-        text: "标签",
+        text: "",
       },
     },
+    // 友情链接
     friendLink: [
       {
         title: "午后南杂",
@@ -117,16 +112,22 @@ module.exports = {
           "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
         link: "https://vuepress-theme-reco.recoluan.com",
       },
+      {
+        title: "Silence-dream",
+        desc: "白月初",
+        avatar: "https://avatars.githubusercontent.com/u/42824008?v=4",
+        link: "https://github.com/Silence-dream",
+      }
     ],
     huawei: true,
-    logo: "/logo.gif",
+    logo: "/logo.png",
     search: true,
     searchMaxSuggestions: 10,
     lastUpdated: "Last Updated",
-    author: "Silence-dream ",
-    authorAvatar: "https://avatars.githubusercontent.com/u/42824008?v=4",
+    author: "謀 LIU",
+    authorAvatar: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201701%2F24%2F20170124004459_aCT53.thumb.700_0.jpeg&refer=http%3A%2F%2Fb-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1636678295&t=9efac6a99f32ad96b38df9c8f91b58c9",
     record: "xxxx",
-    startYear: "2017",
+    startYear: "2019",
     // 备案
     record: "ICP 备案文案",
     recordLink: "ICP 备案指向链接",
