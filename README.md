@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: 博客
-tagline: 正因你我生于繁华,弥足之花方显珍贵
+tagline: 莫愁前路无知己,天下谁人不识君
 # 首页按钮
 actionText: 巅峰之路
 actionLink: /docs/Front-end/Vue/

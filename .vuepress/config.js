@@ -48,7 +48,7 @@ module.exports = {
   ],
   theme: "reco",
   themeConfig: {
-    // 黑暗模式
+    // 默认模式
     mode: "auto",
     // 顶部导航链接
     nav: [
