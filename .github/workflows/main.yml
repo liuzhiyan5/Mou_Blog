@@ -23,9 +23,9 @@ jobs:
       - name: Git Push Action
         uses: x-actions/git-push@v1
         env:
-          GITHUB_EMAIL: "@qq.com"
-          GITHUB_USERNAME: ""
-          PUBLISH_REPO: https://${{ secrets.PAT }}@github.com/Silence-dream/blog.git
+          GITHUB_EMAIL: "1172258408@qq.com"
+          GITHUB_USERNAME: "liuzhiyan5"
+          PUBLISH_REPO: https://${{ secrets.PAT }}@github.com/liuzhiyan5/Mou_Blog.git
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: ./dist
           DEPLOY_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
