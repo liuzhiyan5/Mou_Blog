@@ -67,8 +67,8 @@ module.exports = {
         icon: "reco-message",
         items: [
           {
-            text: "前端三基础",
-            link: "/docs/前端三基础/",
+            text: "前端",
+            link: "/docs/前端/",
           },
         ],
       },

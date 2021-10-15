@@ -1,11 +1,11 @@
 //侧边栏
 module.exports = {
   // 文档
-  "/docs/前端三基础/": [
+  "/docs/前端/": [
     "",
     {
       title: "HTML",
-      path: "/docs/前端三基础/HTMl/",
+      path: "/docs/前端/HTMl/",
       children: [
         "HTML/01-html",
         "HTML/02-html",
