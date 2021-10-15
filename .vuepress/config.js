@@ -70,6 +70,10 @@ module.exports = {
             text: "前端",
             link: "/docs/前端/",
           },
+          {
+            text: "数据库",
+            link: "/docs/数据库/",
+          },
         ],
       },
       {
