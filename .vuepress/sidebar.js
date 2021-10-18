@@ -26,6 +26,16 @@ module.exports = {
       children: [
         "TypeScript/01-ts",
       ]
+    },
+    {
+      title: "JavaScript",
+      path: "/docs/前端/JavaScript/",
+      children: [
+        "JavaScript/1.数组",
+        "JavaScript/2.字符串",
+        "JavaScript/3.高级",
+        "JavaScript/4.异步编程",
+      ]
     }
   ],
   "/docs/数据库/": [
