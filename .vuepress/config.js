@@ -45,6 +45,14 @@ module.exports = {
         },
       },
     ],
+    // 支持中文文件名,中文文件名转拼音
+    [
+      "permalink-pinyin",
+      {
+        lowercase: true, // Converted into lowercase, default: true
+        separator: "-", // Separator of the slug, default: '-'
+      },
+    ],
   ],
   theme: "reco",
   themeConfig: {
@@ -98,7 +106,7 @@ module.exports = {
       },
       tag: {
         location: 3,
-        text: "",
+        text: "标签",
       },
     },
     // 友情链接
