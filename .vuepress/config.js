@@ -53,6 +53,64 @@ module.exports = {
         separator: "-", // Separator of the slug, default: '-'
       },
     ],
+    // 浮窗音乐一
+    // [
+    //   "@vuepress-reco/vuepress-plugin-bgm-player",
+    //   {
+    //     autoplay: true,
+    //     autoShrink: true,
+    //     shrinkMode: "mini",
+    //     audios: [
+    //       // 本地文件
+    //       {
+    //         name: "海阔天空",
+    //         artist: "BEYOND",
+    //         url: "/bgm/海阔天空.mp3",
+    //         cover: "/bgm/海阔天空.jpg",
+    //       },
+    //       {
+    //         name: "Say Yes",
+    //         artist: "LOCO、Punch",
+    //         url: "/bgm/Say_Yes.mp3",
+    //         cover: "/bgm/Say_Yes.webp",
+    //       },
+    //       {
+    //         name: "谁伴我闯荡",
+    //         artist: "BEYOND",
+    //         url: "/bgm/谁伴我闯荡.mp3",
+    //         cover: "/bgm/谁伴我闯荡.webp",
+    //       },
+    //       {
+    //         name: "无悔这一生",
+    //         artist: "BEYOND",
+    //         url: "/bgm/无悔这一生.mp3",
+    //         cover: "/bgm/无悔这一生.jpg",
+    //       },
+    //       {
+    //         name: "真的爱你",
+    //         artist: "BEYOND",
+    //         url: "/bgm/真的爱你.mp3",
+    //         cover: "/bgm/真的爱你.webp",
+    //       },
+    //     ],
+
+    //   }
+    // ]
+    // 浮窗音乐二
+    [
+      'meting',
+      {
+        meting: {
+          auto: 'https://music.163.com/#/artist?id=6452'
+        },
+        aplayer: {
+          autoplay: true,
+          mutex: true,
+          listFolded: true,
+          lrcType: 3
+        }
+      },
+    ]
   ],
   theme: "reco",
   themeConfig: {

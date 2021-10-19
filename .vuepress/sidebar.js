@@ -25,6 +25,10 @@ module.exports = {
       path: "/docs/前端/TypeScript/",
       children: [
         "TypeScript/01-ts",
+        "TypeScript/02-ts",
+        "TypeScript/03-ts",
+        "TypeScript/04-ts",
+        "TypeScript/05-ts",
       ]
     },
     {

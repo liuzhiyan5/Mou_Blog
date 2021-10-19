@@ -3,8 +3,8 @@ home: true
 heroText: 博客
 tagline: 莫愁前路无知己,天下谁人不识君
 # 首页按钮
-actionText: 巅峰之路
-actionLink: /docs/Front-end/Vue/
+# actionText: 巅峰之路
+# actionLink: /docs/Front-end/Vue/
 lang: zh-cn
 # 首页图
 # heroImage: /hero.png
