@@ -46,9 +46,9 @@ module.exports = {
     "",
     {
       title: "MySql",
-      path: "/docs/数据库/MySql/",
+      path: "/docs/数据库/MySQL/",
       children: [
-        "MySql/01",
+        "MySQL/01",
       ]
     }
   ],
