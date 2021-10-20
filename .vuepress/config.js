@@ -110,7 +110,27 @@ module.exports = {
           lrcType: 3
         }
       },
-    ]
+    ],
+    // title离开进入时的动态标题
+    // [
+    //   'dynamic-title',
+    //   {
+    //     showIcon: '/favicon.ico',
+    //     showText: '(/≧▽≦/)咦！又好了！',
+    //     hideIcon: '/favicon.ico',
+    //     hideText: '(●—●)喔哟，崩溃啦！',
+    //     recoverTime: 2000,
+    //   },
+    // ],
+    // 当点击鼠标时触发效果
+    [
+      'cursor-effects',
+      {
+        size: 2, // size of the particle, default: 2
+        shape: ['circle'], // shape of the particle, default: 'star' | 'circle'
+        zIndex: 999999999, // z-index property of the canvas, default: 999999999
+      },
+    ],
   ],
   theme: "reco",
   themeConfig: {

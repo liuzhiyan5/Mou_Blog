@@ -45,10 +45,10 @@ module.exports = {
   "/docs/数据库/": [
     "",
     {
-      title: "MySQL",
-      path: "/docs/数据库/MySQL/",
+      title: "MySql",
+      path: "/docs/数据库/MySql/",
       children: [
-        "MySQL/01-mysql",
+        "MySql/01",
       ]
     }
   ],
