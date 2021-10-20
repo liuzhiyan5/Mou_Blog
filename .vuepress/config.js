@@ -123,14 +123,14 @@ module.exports = {
     //   },
     // ],
     // 当点击鼠标时触发效果
-    [
-      'cursor-effects',
-      {
-        size: 2, // size of the particle, default: 2
-        shape: ['circle'], // shape of the particle, default: 'star' | 'circle'
-        zIndex: 999999999, // z-index property of the canvas, default: 999999999
-      },
-    ],
+    // [
+    //   'cursor-effects',
+    //   {
+    //     size: 2, // size of the particle, default: 2
+    //     shape: ['circle'], // shape of the particle, default: 'star' | 'circle'
+    //     zIndex: 999999999, // z-index property of the canvas, default: 999999999
+    //   },
+    // ],
   ],
   theme: "reco",
   themeConfig: {
