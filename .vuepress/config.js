@@ -64,67 +64,24 @@ module.exports = {
           {
             name: "不下雪的广东",
             artist: "广东雨神",
-            url: "/bgm/广东雨神-不下雪的广东/不下雪的广东.mp3",
-            cover: "/bgm/广东雨神-不下雪的广东/不下雪的广东.jpg",
+            url: "/bgm/不下雪的广东.mp3",
+            cover: "/bgm/不下雪的广东.jpg",
           },
           {
             name: "痛醒",
             artist: "许廷铿",
-            url: "/bgm/许廷铿-痛醒/痛醒.mp3",
-            cover: "/bgm/许廷铿-痛醒/痛醒.jpg",
+            url: "/bgm/痛醒.mp3",
+            cover: "/bgm/痛醒.jpg",
           },
           {
             name: "广东十年爱情故事",
             artist: "杨姨姨",
-            url: "/bgm/翻广东雨神-广东十年爱情故事/广东十年爱情故事.mp3",
-            cover: "/bgm/翻广东雨神-广东十年爱情故事/广东十年爱情故事.jpg",
+            url: "/bgm/广东十年爱情故事.mp3",
+            cover: "/bgm/广东十年爱情故事.jpg",
           },
         ],
       }
     ],
-    // 浮窗音乐一样板
-    // [
-    //   "@vuepress-reco/vuepress-plugin-bgm-player",
-    //   {
-    //     autoplay: true,
-    //     autoShrink: true,
-    //     shrinkMode: "mini",
-    //     audios: [
-    //       // 本地文件
-    //       {
-    //         name: "海阔天空",
-    //         artist: "BEYOND",
-    //         url: "/bgm/海阔天空.mp3",
-    //         cover: "/bgm/海阔天空.jpg",
-    //       },
-    //       {
-    //         name: "Say Yes",
-    //         artist: "LOCO、Punch",
-    //         url: "/bgm/Say_Yes.mp3",
-    //         cover: "/bgm/Say_Yes.webp",
-    //       },
-    //       {
-    //         name: "谁伴我闯荡",
-    //         artist: "BEYOND",
-    //         url: "/bgm/谁伴我闯荡.mp3",
-    //         cover: "/bgm/谁伴我闯荡.webp",
-    //       },
-    //       {
-    //         name: "无悔这一生",
-    //         artist: "BEYOND",
-    //         url: "/bgm/无悔这一生.mp3",
-    //         cover: "/bgm/无悔这一生.jpg",
-    //       },
-    //       {
-    //         name: "真的爱你",
-    //         artist: "BEYOND",
-    //         url: "/bgm/真的爱你.mp3",
-    //         cover: "/bgm/真的爱你.webp",
-    //       },
-    //     ],
-
-    //   }
-    // ]
     // 浮窗音乐二
     // [
     //   'meting',
