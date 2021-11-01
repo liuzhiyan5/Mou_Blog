@@ -53,6 +53,7 @@ module.exports = {
         separator: "-", // Separator of the slug, default: '-'
       },
     ],
+    // 浮窗音乐一样板
     [
       "@vuepress-reco/vuepress-plugin-bgm-player",
       {
@@ -68,18 +69,19 @@ module.exports = {
             cover: "/bgm/不下雪的广东.jpg",
           },
           {
-            name: "痛醒",
-            artist: "许廷铿",
-            url: "/bgm/痛醒.mp3",
-            cover: "/bgm/痛醒.jpg",
-          },
-          {
             name: "广东十年爱情故事",
             artist: "杨姨姨",
             url: "/bgm/广东十年爱情故事.mp3",
             cover: "/bgm/广东十年爱情故事.jpg",
           },
+          {
+            name: "痛醒",
+            artist: "许廷铿",
+            url: "/bgm/痛醒.mp3",
+            cover: "/bgm/痛醒.jpg",
+          },
         ],
+
       }
     ],
     // 浮窗音乐二
