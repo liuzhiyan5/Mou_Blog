@@ -54,50 +54,35 @@ module.exports = {
       },
     ],
     // 浮窗音乐一样板
-    [
-      "@vuepress-reco/vuepress-plugin-bgm-player",
-      {
-        autoplay: true,
-        autoShrink: true,
-        shrinkMode: "mini",
-        audios: [
-          // 本地文件
-          {
-            name: "不下雪的广东",
-            artist: "广东雨神",
-            url: "/bgm/不下雪的广东.mp3",
-            cover: "/bgm/不下雪的广东.jpg",
-          },
-          {
-            name: "广东十年爱情故事",
-            artist: "杨姨姨",
-            url: "/bgm/广东十年爱情故事.mp3",
-            cover: "/bgm/广东十年爱情故事.jpg",
-          },
-          {
-            name: "痛醒",
-            artist: "许廷铿",
-            url: "/bgm/痛醒.mp3",
-            cover: "/bgm/痛醒.jpg",
-          },
-        ],
-
-      }
-    ],
-    // 浮窗音乐二
     // [
-    //   'meting',
+    //   "@vuepress-reco/vuepress-plugin-bgm-player",
     //   {
-    //     meting: {
-    //       auto: 'https://music.163.com/#/artist?id=6452'
-    //     },
-    //     aplayer: {
-    //       autoplay: true,
-    //       mutex: true,
-    //       listFolded: true,
-    //       lrcType: 3
-    //     }
-    //   },
+    //     autoplay: true,
+    //     autoShrink: true,
+    //     shrinkMode: "mini",
+    //     audios: [
+    //       // 本地文件
+    //       {
+    //         name: "不下雪的广东",
+    //         artist: "广东雨神",
+    //         url: "/bgm/不下雪的广东.mp3",
+    //         cover: "/bgm/不下雪的广东.jpg",
+    //       },
+    //       {
+    //         name: "广东十年爱情故事",
+    //         artist: "杨姨姨",
+    //         url: "/bgm/广东十年爱情故事.mp3",
+    //         cover: "/bgm/广东十年爱情故事.jpg",
+    //       },
+    //       {
+    //         name: "痛醒",
+    //         artist: "许廷铿",
+    //         url: "/bgm/痛醒.mp3",
+    //         cover: "/bgm/痛醒.jpg",
+    //       },
+    //     ],
+
+    //   }
     // ],
     // title离开进入时的动态标题
     // [
