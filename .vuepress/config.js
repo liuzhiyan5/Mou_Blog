@@ -54,35 +54,35 @@ module.exports = {
       },
     ],
     // 浮窗音乐一样板
-    [
-      "@vuepress-reco/vuepress-plugin-bgm-player",
-      {
-        autoplay: true,
-        autoShrink: true,
-        shrinkMode: "mini",
-        audios: [
-          // 本地文件
-          {
-            name: "不下雪的广东",
-            artist: "广东雨神",
-            url: "/bgm/广东雨神-不下雪的广东/不下雪的广东.mp3",
-            cover: "/bgm/广东雨神-不下雪的广东/不下雪的广东.jpg",
-          },
-          {
-            name: "广东十年爱情故事",
-            artist: "杨姨姨",
-            url: "/bgm/翻广东雨神-广东十年爱情故事/广东十年爱情故事.mp3",
-            cover: "/bgm/翻广东雨神-广东十年爱情故事/广东十年爱情故事.jpg",
-          },
-          {
-            name: "痛醒",
-            artist: "许廷铿",
-            url: "/bgm/许廷铿-痛醒/痛醒.mp3",
-            cover: "/bgm/许廷铿-痛醒/痛醒.jpg",
-          },
-        ],
-      }
-    ],
+    // [
+    //   "@vuepress-reco/vuepress-plugin-bgm-player",
+    //   {
+    //     autoplay: true,
+    //     autoShrink: true,
+    //     shrinkMode: "mini",
+    //     audios: [
+    //       // 本地文件
+    //       {
+    //         name: "不下雪的广东",
+    //         artist: "广东雨神",
+    //         url: "/bgm/广东雨神-不下雪的广东/不下雪的广东.mp3",
+    //         cover: "/bgm/广东雨神-不下雪的广东/不下雪的广东.jpg",
+    //       },
+    //       {
+    //         name: "广东十年爱情故事",
+    //         artist: "杨姨姨",
+    //         url: "/bgm/翻广东雨神-广东十年爱情故事/广东十年爱情故事.mp3",
+    //         cover: "/bgm/翻广东雨神-广东十年爱情故事/广东十年爱情故事.jpg",
+    //       },
+    //       {
+    //         name: "痛醒",
+    //         artist: "许廷铿",
+    //         url: "/bgm/许廷铿-痛醒/痛醒.mp3",
+    //         cover: "/bgm/许廷铿-痛醒/痛醒.jpg",
+    //       },
+    //     ],
+    //   }
+    // ],
     // title离开进入时的动态标题
     // [
     //   'dynamic-title',
