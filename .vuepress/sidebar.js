@@ -1,11 +1,28 @@
 //侧边栏
 module.exports = {
   // 文档
-  "/docs/前端/": [
+  "/docs/框架/": [
+    "",
+    {
+      title: "Nuxt",
+      path: "/docs/框架/Nuxt/",
+      children: [
+        "Nuxt/01-nuxt",
+      ]
+    },
+    {
+      title: "React",
+      path: "/docs/框架/React/",
+      children: [
+        "React/01-react",
+      ]
+    }
+  ],
+  "/docs/前端基本/": [
     "",
     {
       title: "HTML",
-      path: "/docs/前端/HTMl/",
+      path: "/docs/前端基本/HTMl/",
       children: [
         "HTML/01-html",
         "HTML/02-html",
@@ -22,7 +39,7 @@ module.exports = {
     },
     {
       title: "TypeScript",
-      path: "/docs/前端/TypeScript/",
+      path: "/docs/前端基本/TypeScript/",
       children: [
         "TypeScript/01-ts",
         "TypeScript/02-ts",
@@ -33,7 +50,7 @@ module.exports = {
     },
     {
       title: "JavaScript",
-      path: "/docs/前端/JavaScript/",
+      path: "/docs/前端基本/JavaScript/",
       children: [
         "JavaScript/1.数组",
         "JavaScript/2.字符串",

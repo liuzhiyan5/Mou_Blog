@@ -1,4 +1,0 @@
----
-title: typescript
-date: 2021-10-15
----
