@@ -15,6 +15,7 @@ module.exports = {
       path: "/docs/框架/React/",
       children: [
         "React/01-react",
+        "React/02-react",
       ]
     }
   ],
