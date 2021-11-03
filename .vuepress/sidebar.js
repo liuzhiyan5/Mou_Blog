@@ -16,6 +16,7 @@ module.exports = {
       children: [
         "React/01-react",
         "React/02-react",
+        "React/03-react",
       ]
     }
   ],
