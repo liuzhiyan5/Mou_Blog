@@ -19,6 +19,7 @@ module.exports = {
         "React/03-react",
         "React/04-react",
         "React/05-react",
+        "React/06-react",
       ]
     }
   ],
