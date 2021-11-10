@@ -140,6 +140,6 @@ ReactDOM.render(
 );
 ```
 
-参考文档：
+## 参考文档
 
-https://blog.csdn.net/qq_41499782/article/details/113828681（react 组件之组件的状态，state）
+[react 组件之组件的状态，state](https://blog.csdn.net/qq_41499782/article/details/113828681)

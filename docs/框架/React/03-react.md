@@ -529,6 +529,6 @@ export { Provider, Consumer };
 
 ## 参考文档
 
-1.https://www.jianshu.com/p/64b5840abd98（React ref 三种用法）
+[React ref 三种用法](https://www.jianshu.com/p/64b5840abd98)
 
-2.https://goshakkk.name/controlled-vs-uncontrolled-inputs-react/（React中的受控和非受控表单输入不必复杂）
+[React 中的受控和非受控表单输入不必复杂](https://goshakkk.name/controlled-vs-uncontrolled-inputs-react/)

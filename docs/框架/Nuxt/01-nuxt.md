@@ -110,6 +110,6 @@ export default {};
 
 由图可见，只需将 url 地址进行手动修改，便能够成功跳转
 
-参考文档：
+## 参考文档
 
-https://www.cnblogs.com/wuqilang/p/11202475.html（客户端渲染和服务端渲染的区别）
+[客户端渲染和服务端渲染的区别](https://www.cnblogs.com/wuqilang/p/11202475.html)
