@@ -26,6 +26,7 @@ module.exports = {
         "React/10-react",
         "React/11-react",
         "React/12-react",
+        "React/13-react",
       ]
     }
   ],
