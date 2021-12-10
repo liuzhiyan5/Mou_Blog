@@ -8,6 +8,7 @@ module.exports = {
       path: "/docs/框架/Nuxt/",
       children: [
         "Nuxt/01-nuxt",
+        "Nuxt/02-nuxt",
       ]
     },
     {
