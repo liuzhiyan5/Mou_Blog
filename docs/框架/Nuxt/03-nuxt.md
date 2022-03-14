@@ -2,7 +2,7 @@
 title: Nuxt资源文件
 date: 2021-10-06
 tags:
-  - React
+  - Nuxt
 ---
 
 ## 使用css/html预处理器
