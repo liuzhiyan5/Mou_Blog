@@ -11,6 +11,7 @@ module.exports = {
         "Nuxt/02-nuxt",
         "Nuxt/03-nuxt",
         "Nuxt/04-nuxt",
+        "Nuxt/05-nuxt",
       ]
     },
     {
